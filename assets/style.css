@@ -67,73 +67,160 @@ a {
     /* Sizing */
     width: 100vw;
     height: 30vh;
-    background: rgb(159, 122, 122);
+    background: rgb(189, 216, 204);
     
     /* Flexbox stuff */
     display: flex;
     justify-content: right;
     align-items: end;
-    
+
     /* Text styles */
     text-align: right;
-    background-image: url("./assets/images/myhero.png");
+    background-image: url("/assets/images/myhero.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: absolute;
 }
 
 .hero h1 {
     /* Text styles */
     font-size: 2em;
     margin: 60px;
+    background: white;
+    padding: 6px;
 }
 
-/* Flexboxes */
+/* Flex classes */
 
-.flexbox-container {
-    display:flex;
+.page {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 80px;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.sideBar {
+  text-align: right;
+  border-right: 4px solid #388087;
+  padding: 0 1em;
+  flex: 1;
+}
+
+.content {
+  margin: 0em;
+  flex: 2;
+  padding: 10px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+#container > div {
+  flex: 0 0 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Class Flexboxes */
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.box {
+  width: 600px;
+  height: 300px;
+  margin: 10px;
+  background-color: #ccc;
+  flex: 1;
+  transition: background-color 0.3s ease;
+}
+
+.box:hover {
+  background-color: #999;
+}
+
+#two, #three {
+  flex-basis: 40%;
+}
+
+#four, #five {
+  flex-basis: 40%;
+}
+
+#one {
+    flex-basis: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/08/Presentation_Design_Guide_Blog_Header.png');
+}
+
+#two {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-image: url('https://blog.depositphotos.com/wp-content/uploads/2019/04/Depositphotos_209179682_m-2015kk.jpg.webp');
+}
+
+@media screen and (max-width: 600px) {
+  .box-container {
     flex-direction: column;
-    justify-content: center;
-    align-items: end;
+  }
+  
+  #one {
+    flex-basis: auto;
+  }
 }
 
-.flexbox-item {
-    width: 800px;
-    margin: 10px;
-    border: 3px solid #333;
-    background-color: white;
-}
-
-.flexbox-item-1 {
-    min-height: 600px;
-}
-
-.flexbox-item-2 {
-    min-height: 300px;
-}
-
-.flexbox-item-3 {
-    min-height: 300px;
-}
-
-.sidebar-item {
-    display: flex;
+@media screen and (max-width: 600px) {
+  .box-container {
     flex-direction: column;
-    width:400px;
-    border: 3px solid #333;
-    background-color: white;
+  }
+
+  #one {
+    flex-basis: auto;
+  }
 }
 
-.sidebar-item-4 {
-    min-height: 600px;
+/* Footer */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
 }
 
-.sidebar-item-5 {
-    min-height: 300px;
+footer .page {
+  display: flex;
+  align-items: center;
 }
 
-.sidebar-item-6 {
-    min-height: 300px;
+footer .sideBar {
+  flex: 1;
+  margin-right: 20px;
+  text-align: right;
 }
 
+footer .content {
+  flex: 2;
+}
+
+footer h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
