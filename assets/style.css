@@ -17,7 +17,7 @@ header#split {
 
 .headerContent {
   font-family: helvetica;
-  background: #388087;
+  background: #000000;
   color: white;
   width: 40%;
   margin-left: 0px;
@@ -61,7 +61,7 @@ a {
   align-items: flex-end;
   text-align: right;
   background-image: url("./images/myhero.png");
-  background-size: cover;
+  background-size: auto;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: absolute;
@@ -157,7 +157,41 @@ a {
   background-image: url('https://blog.depositphotos.com/wp-content/uploads/2019/04/Depositphotos_209179682_m-2015kk.jpg.webp');
 }
 
+#three {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-image: url('https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#four {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-image: url('https://media.licdn.com/dms/image/D4D12AQG_BZ4vojFcRg/article-cover_image-shrink_600_2000/0/1689835337572?e=2147483647&v=beta&t=lOlgd0FM9QJat15XITtQM1_PztiJ8vcUHckCTD27-ys');
+}
+
+#five {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-image: url('https://images.unsplash.com/photo-1531824475211-72594993ce2a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
 @media screen and (max-width: 600px) {
+  .box-container {
+    flex-direction: column;
+  }
+
+  #one {
+    flex-basis: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .box-container {
     flex-direction: column;
   }
@@ -169,7 +203,7 @@ a {
 
 /* Footer */
 footer {
-  background-color: #f2f2f2;
+  background-color: #d4d4d4;
   padding: 10px;
 }
 
