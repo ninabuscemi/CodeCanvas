@@ -150,13 +150,14 @@ a {
   background-color: #999;
 }
 
-/* In your external CSS file (style.css) */
+/* Work section boxes */
 .box {
-  color: #107c3f; /* Example: Blue color */
+  /* Stylse the common attributes of the boxes in the Work section */
+  color: #107c3f;
   text-decoration: none; /* Remove underline */
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
-  font-weight: bold; /* Make the text bold */
+  font-weight: bold; /* Makes the text bold */
   border-bottom: none;
   opacity: 0.5;
   transition: opacity .25s ease-in-out;
@@ -165,12 +166,14 @@ a {
 }
 
 .box:hover {
+  /* Styles boxes on hover with a background color change */
   color: #000000;
   opacity: 1;
   text-shadow: 3px 3px 17px white;
 }
 
 #two, #three {
+  /* Styles specific boxes with adjusted flex basis */
   flex-basis: 40%;
 }
 
@@ -179,6 +182,7 @@ a {
 }
 
 #one {
+  /* Styles the first box with unique background properties */
   flex-basis: 100%;
   background-size: cover;
   background-position: center center;
@@ -219,6 +223,7 @@ a {
   background-image: url('https://images.unsplash.com/photo-1531824475211-72594993ce2a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 
+/* Adjust styles for smaller screens */
 @media screen and (max-width: 600px) {
   .box-container {
     flex-direction: column;
@@ -229,6 +234,7 @@ a {
   }
 }
 
+/* Adjust styles for medium-sized screens */
 @media screen and (max-width: 800px) {
   .box-container {
     flex-direction: column;
@@ -241,30 +247,36 @@ a {
 
 /* Footer */
 footer {
+  /* Style the footer section with background color and padding */
   background-color: #d4d4d4;
   padding: 10px;
 }
 
 footer .page {
+  /* Styles the footer content with flex properties */
   display: flex;
   align-items: center;
 }
 
 footer .sideBar {
+/* Style the sidebar within the footer */
   flex: 1;
   margin-right: 20px;
   text-align: right;
 }
 
 footer .content {
+/* Style the main content area within the footer */
   flex: 2;
 }
 
 footer h1 {
+/* Style the heading within the footer */
   font-size: 24px;
   margin-bottom: 10px;
 }
 
 footer p {
+ /* Style paragraphs within the footer */
   margin-bottom: 5px;
 }
