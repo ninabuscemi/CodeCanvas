@@ -74,6 +74,24 @@ a {
   padding: 6px;
 }
 
+/* Profile picture */
+
+.profile-image {
+    width: 200px;
+    height: auto; 
+    border-radius: 50%; 
+    float: left;
+    margin-right: 30px; 
+    margin-left: 15px;
+}
+
+/* Clear the float to prevent layout issues */
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Flex classes */
 .page {
   display: flex;
