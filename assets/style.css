@@ -150,6 +150,26 @@ a {
   background-color: #999;
 }
 
+/* In your external CSS file (style.css) */
+.box {
+  color: #107c3f; /* Example: Blue color */
+  text-decoration: none; /* Remove underline */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: bold; /* Make the text bold */
+  border-bottom: none;
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.box:hover {
+  color: #000000;
+  opacity: 1;
+  text-shadow: 3px 3px 17px white;
+}
+
 #two, #three {
   flex-basis: 40%;
 }
