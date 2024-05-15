@@ -1,32 +1,20 @@
-# 02 Responsive Portfolio
-
-A web application built from scratch displaying work that showcases my skills and talents.
+# Responsive Portfolio - 02 [License Badge](https://badgen.net/static/license/MIT/blue)
 
 ## Description
 
 Welcome to the Work Day Scheduler! This application allows you to easily plan and organize your work day by saving events for each hour of a typical working day (9am to 5pm). With a user-friendly interface and dynamic updates, you can stay on top of your schedule and never miss an important task.
 
-## User Story
+![JavaScript](https://camo.githubusercontent.com/84372c7d2f1a7308844360ecad82d49b3f6cbc068a0c5e31aeea6ca5344b77ba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d626c61636b)
+![HTML](https://camo.githubusercontent.com/bfe6a48836e87b13a16f1f56f88fee428475c2ac29247992ec9b8bcc7154f881/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465)
+![CSS](https://camo.githubusercontent.com/472c222e8f240a48ae51cd9b082a1b857be809dcd851a25150890c2da50c13a5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465)
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-## Acceptance Criteria
+## Table of Contents
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+- [Mockup](#mockup)
+- [Installation](#deployed-application)
+- [License](#license)
+- [Questions](#questions)
 
 ## Mockup
 
@@ -39,6 +27,12 @@ To open the Responsive Portfolio, follow these steps:
 1. Clone the repository to your local machine.
 2. Open the index.html file in your preferred web browser.
 
-## Contributing
+## License
 
-Contributions to the Responsive Portfolio are welcome! If you find any issues or have suggestions for improvements, please submit a pull request. Make sure to follow the repository's code style and guidelines.
+The project is under MIT License.
+
+## Questions
+
+If you have any questions regarding the project, please, feel free to contact me:
+
+- GitHub: [Nina Buscemi](https://github.com/ninabuscemi)
