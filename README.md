@@ -24,8 +24,13 @@ Welcome to the Work Day Scheduler! This application allows you to easily plan an
 
 To open the Responsive Portfolio, follow these steps:
 
-1. Clone the repository to your local machine.
-2. Open the index.html file in your preferred web browser.
+1. [Download](https://github.com/ninabuscemi/ninas-online-portfolio) or clone the repository:
+
+    ```
+    git clone git@github.com:ninabuscemi/ninas-online-portfolio.git
+    ```
+
+2. Open the html link in your local browser
 
 ## License
 
