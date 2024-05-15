@@ -1,4 +1,4 @@
-# Responsive Portfolio - 02 [License Badge](https://badgen.net/static/license/MIT/blue)
+# Responsive Portfolio - 02 ![License Badge](https://badgen.net/static/license/MIT/blue)
 
 ## Description
 
